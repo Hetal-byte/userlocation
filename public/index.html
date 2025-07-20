@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Location Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Profile</h1>
+        </header>
+        
+        <main>
+            <section class="profile-section">
+                <h2>Profile</h2>
+                <button id="obtainLocationBtn" class="btn-primary">Obtain Location</button>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for a city or place" />
+                    <button id="search-button" class="btn-primary">Search</button>
+                </div>
+                
+                <div id="locationInfo" class="location-info hidden">
+                    <h3>Your Location</h3>
+                    <p id="locationText" class="location-text"></p>
+                </div>
+            </section>
+            
+            <section class="map-section">
+                <h2>Location Map</h2>
+                <div id="map" class="map-container"></div>
+            </section>
+            
+            <section class="weather-section">
+                <h2>Weather Information</h2>
+                <div id="weatherInfo" class="weather-info hidden">
+                    <div class="weather-card">
+                        <div class="weather-icon">
+                            <img id="weatherIcon" src="" alt="Weather icon">
+                        </div>
+                        <div class="weather-details">
+                            <h3 id="weatherLocation"></h3>
+                            <p id="weatherTemp" class="temperature"></p>
+                            <p id="weatherDesc" class="description"></p>
+                            <p id="weatherHumidity" class="humidity"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
