@@ -47,9 +47,9 @@ You'll need to obtain the following API keys:
 Edit `public/app.js` and replace the placeholder API keys:
 
 ```javascript
-const GOOGLE_MAPS_API_KEY = 'your_google_maps_api_key_here';
-const WEATHER_API_KEY = 'your_openweathermap_api_key_here';
-const REVERSE_GEOCODING_API_KEY = 'your_opencage_api_key_here';
+const GOOGLE_MAPS_API_KEY = 'AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao';
+const WEATHER_API_KEY = '8ea0e63b9fabf18cdc828fb55cb49fe8';
+const REVERSE_GEOCODING_API_KEY = 'c4e8f3e2f8434f8687886b5ef023f59e';
 ```
 
 ### 4. Start the Server
