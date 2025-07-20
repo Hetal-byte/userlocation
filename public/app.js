@@ -1,7 +1,7 @@
 // Configuration
-const GOOGLE_MAPS_API_KEY = 'AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao'; // Replace with your API key
-const WEATHER_API_KEY = '8ea0e63b9fabf18cdc828fb55cb49fe8'; // Replace with your OpenWeatherMap API key
-const REVERSE_GEOCODING_API_KEY = 'c4e8f3e2f8434f8687886b5ef023f59e'; // Replace with your OpenCage API key
+const GOOGLE_MAPS_API_KEY = 'AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao'; 
+const WEATHER_API_KEY = '8ea0e63b9fabf18cdc828fb55cb49fe8'; 
+const REVERSE_GEOCODING_API_KEY = 'c4e8f3e2f8434f8687886b5ef023f59e'; 
 
 // DOM Elements
 const obtainLocationBtn = document.getElementById('obtainLocationBtn');
